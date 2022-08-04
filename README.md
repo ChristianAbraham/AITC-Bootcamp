@@ -1,3 +1,3 @@
 # AITC-Bootcamp
-# Web Development
-# HTML CSS JS
+Web Development
+HTML CSS JS
