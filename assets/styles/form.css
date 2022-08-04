@@ -1,0 +1,153 @@
+* {
+    font-family: 'Lora', serif;
+  }
+  
+  body, html {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, span {
+    line-height: 140%;
+    letter-spacing: 0.065em;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 88px;
+  }
+  
+  h2 {
+    font-size: 66px;
+  }
+  
+  h3 {
+    font-size: 50px;
+  }
+  
+  h4 {
+    font-size: 34px;
+  }
+  
+  h5 {
+    font-size: 28px;
+  }
+  
+  h6, text-lg {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  header, footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+  }
+  
+  footer {
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  
+  main {
+    padding-top: 76px;
+    padding-bottom: 76px;
+  }
+  
+  input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 52px;
+    border: 1px solid #616161;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 16px 18px;
+  
+} 
+
+.upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upload img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 26px;
+
+}
+
+.upload button {
+    padding-top: 10px;
+    padding-bottom: 10.57px;
+    padding-right: 28px;
+    padding-left: 27px;
+    margin-bottom: 48px;
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: #C8C8C8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inputdata{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inputdata .biodata{
+    width: 500px;
+    height: 226px;
+    
+} 
+
+.inputdata button {
+    padding: 18px 91px;
+    margin-top: 48px;
+    margin-bottom: 748px;
+    width: 250px;
+    height: 56px;
+    border: none;
+    background-color: #004681;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.065em;
+}
+
+/* color */
+
+.text-black {
+    color: #000;
+}
+.text-primary {
+    color: #0070f3;
+}
+
+.text-secondary {
+    color: #96f11e;
+}
